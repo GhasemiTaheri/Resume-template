@@ -1,23 +1,35 @@
 @charset "utf-8";
+
 /* CSS Document */
+
 @font-face {
-        font-family: 'IRANSans';
-        src:url('font/IRANSans.ttf'); /* IE9 Compat Modes */
-        src:url('font/IRANSans.ttf') format('woff2'), /* Super Modern Browsers */
-            url('font/IRANSans.ttf') format('woff'), /* Pretty Modern Browsers */
-            url('font/IRANSans.ttf')  format('truetype'), /* Safari, Android, iOS */
-            url('font/IRANSans.ttf') format('svg'); /* Legacy iOS */
+    font-family: 'IRANSans';
+    src: url('font/IRANSans.ttf');
+    /* IE9 Compat Modes */
+    src: url('font/IRANSans.ttf') format('woff2'), /* Super Modern Browsers */
+    url('font/IRANSans.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('font/IRANSans.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('font/IRANSans.ttf') format('svg');
+    /* Legacy iOS */
 }
 
-html ,body {
+html,
+body {
     font-family: 'IRANSans';
     background-color: #f0f0f0;
 }
 
-.greencolor{
+.greencolor {
     color: #009688;
 }
 
-.bg-progress{
+.bg-progress {
     background-color: #009688;
+}
+
+.img-description {
+    text-align: right;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
